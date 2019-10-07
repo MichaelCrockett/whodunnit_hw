@@ -99,7 +99,9 @@ const declareMurderer = function () {
 changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
-// I thought maybe TypeError but after reading it again, I understand why it is Mrs White - I think it is because plotTwist is inside a const block, maybe?
+// I thought maybe TypeError but after reading it again,
+// I understand why it is Mrs White - I think it is because
+// plotTwist is inside a const block, maybe?
 
 
 // Episode 7
@@ -128,7 +130,8 @@ const declareMurderer = function() {
 changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
-// Mr Green, because plotTwist is the final outcome of the changeMurderer block, maybe?
+// Mr Green, because plotTwist is the final
+// outcome of the changeMurderer block, maybe?
 
 // Episode 8
 const scenario = {
@@ -165,7 +168,8 @@ const declareWeapon = function() {
 changeScenario();
 const verdict = declareWeapon();
 console.log(verdict);
-// Candlestick - but i think this was a lucky guess more than anything!
+// Candlestick - but i think this was a lucky
+// guess more than anything!
 
 // Episode nine
 let murderer = 'Professor Plum';
@@ -180,4 +184,5 @@ const declareMurderer = function() {
 
 const verdict = declareMurderer();
 console.log(verdict);
-// Professor Plum, because Peacock is 'let' inside a block
+// Professor Plum, because
+// Peacock is 'let' inside a block
